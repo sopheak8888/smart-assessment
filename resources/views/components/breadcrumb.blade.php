@@ -1,5 +1,5 @@
 <ul class="flex space-x-2 rtl:space-x-reverse">
-    @foreach ($items as $breadcrumb)
+    @foreach ($breadcrumbs as $breadcrumb)
         @if (!$loop->last)
             <li>
                 <a href="javascript:;" class="text-primary hover:underline">{{ $breadcrumb }}</a>
